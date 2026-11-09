@@ -1,0 +1,642 @@
+[
+ {
+  "id_cliente": "C0001",
+  "nombre": "Elena Vargas",
+  "email": "elena.vargas1@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2025-01-22",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0002",
+  "nombre": "Elena Vargas",
+  "email": "elena.vargas2@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2025-01-05",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0003",
+  "nombre": "Jorge Mamani",
+  "email": "jorge.mamani3@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2024-02-16",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0004",
+  "nombre": "Jorge Mamani",
+  "email": "jorge.mamani4@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2024-03-22",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0005",
+  "nombre": "Luis Quispe",
+  "email": "luis.quispe5@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2024-10-11",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0006",
+  "nombre": "Carlos Flores",
+  "email": "carlos.flores6@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2025-01-14",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0007",
+  "nombre": "Jorge Mamani",
+  "email": "jorge.mamani7@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2024-03-14",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0008",
+  "nombre": "María Condori",
+  "email": "maria.condori8@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-06-16",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0009",
+  "nombre": "Lucía Paredes",
+  "email": "lucia.paredes9@correo.pe",
+  "ciudad": "AREQUIPA",
+  "fecha_registro": "2025-07-24",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0010",
+  "nombre": "Carlos Flores",
+  "email": "carlos.flores10@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2024-08-22",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0011",
+  "nombre": "Carlos Flores",
+  "email": "carlos.flores11correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2024-10-01",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0012",
+  "nombre": "Jorge Mamani",
+  "email": "jorge.mamani12@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2024-08-05",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0013",
+  "nombre": "PEDRO CCORI",
+  "email": "pedro.ccori13@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2025-04-14",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0014",
+  "nombre": "Rosa Huamán",
+  "email": "rosa.huaman14@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-09-09",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0015",
+  "nombre": "Elena Vargas",
+  "email": "elena.vargas15@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2025-08-21",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0016",
+  "nombre": "Miguel Apaza",
+  "email": "miguel.apaza16@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2025-01-05",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0017",
+  "nombre": "María Condori",
+  "email": null,
+  "ciudad": "Trujillo",
+  "fecha_registro": "2024-04-03",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0018",
+  "nombre": "Luis Quispe",
+  "email": "luis.quispe18@correo.pe",
+  "ciudad": "lima ",
+  "fecha_registro": "2024-06-12",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0019",
+  "nombre": "Lucía Paredes",
+  "email": "lucia.paredes19@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2025-01-29",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0020",
+  "nombre": "Miguel Apaza",
+  "email": "miguel.apaza20@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2025-06-25",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0021",
+  "nombre": "Elena Vargas",
+  "email": "elena.vargas21@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2024-04-27",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0022",
+  "nombre": "Elena Vargas",
+  "email": "elena.vargas22correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2024-12-14",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0023",
+  "nombre": "Rosa Huamán",
+  "email": "rosa.huaman23@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2024-06-10",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0024",
+  "nombre": "Ana Torres",
+  "email": "ana.torres24@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2025-05-27",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0025",
+  "nombre": "Elena Vargas",
+  "email": "elena.vargas25@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2024-11-01",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0026",
+  "nombre": "ELENA VARGAS",
+  "email": "elena.vargas26@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-06-05",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0027",
+  "nombre": "María Condori",
+  "email": "maria.condori27@correo.pe",
+  "ciudad": " Cusco",
+  "fecha_registro": "2025-06-27",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0028",
+  "nombre": "Miguel Apaza",
+  "email": "miguel.apaza28@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2025-05-15",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0029",
+  "nombre": "Luis Quispe",
+  "email": "luis.quispe29@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2024-11-10",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0030",
+  "nombre": "Ana Torres",
+  "email": "ana.torres30@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2025-08-03",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0031",
+  "nombre": "Luis Quispe",
+  "email": "luis.quispe31@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2024-03-11",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0032",
+  "nombre": "María Condori",
+  "email": "maria.condori32@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2025-05-01",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0033",
+  "nombre": "María Condori",
+  "email": "maria.condori33correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2025-06-24",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0034",
+  "nombre": "Lucía Paredes",
+  "email": null,
+  "ciudad": "Arequipa",
+  "fecha_registro": "2025-07-06",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0035",
+  "nombre": "Jorge Mamani",
+  "email": "jorge.mamani35@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2025-02-12",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0036",
+  "nombre": "Carlos Flores",
+  "email": "carlos.flores36@correo.pe",
+  "ciudad": "AREQUIPA",
+  "fecha_registro": "2025-06-13",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0037",
+  "nombre": "Luis Quispe",
+  "email": "luis.quispe37@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-08-18",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0038",
+  "nombre": "Carlos Flores",
+  "email": "carlos.flores38@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2025-07-21",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0039",
+  "nombre": "MIGUEL APAZA",
+  "email": "miguel.apaza39@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-01-08",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0040",
+  "nombre": "Ana Torres",
+  "email": "ana.torres40@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-03-10",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0041",
+  "nombre": "Carlos Flores",
+  "email": "carlos.flores41@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2025-06-10",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0042",
+  "nombre": "Rosa Huamán",
+  "email": "rosa.huaman42@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2024-08-07",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0043",
+  "nombre": "María Condori",
+  "email": "maria.condori43@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2024-09-05",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0044",
+  "nombre": "Lucía Paredes",
+  "email": "lucia.paredes44correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-04-06",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0045",
+  "nombre": "Lucía Paredes",
+  "email": "lucia.paredes45@correo.pe",
+  "ciudad": "AREQUIPA",
+  "fecha_registro": "2025-03-09",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0046",
+  "nombre": "Pedro Ccori",
+  "email": "pedro.ccori46@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2024-04-10",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0047",
+  "nombre": "Lucía Paredes",
+  "email": "lucia.paredes47@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2024-04-21",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0048",
+  "nombre": "Jorge Mamani",
+  "email": "jorge.mamani48@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2025-07-03",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0049",
+  "nombre": "María Condori",
+  "email": "maria.condori49@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2024-07-06",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0050",
+  "nombre": "Pedro Ccori",
+  "email": "pedro.ccori50@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-03-18",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0051",
+  "nombre": "Elena Vargas",
+  "email": null,
+  "ciudad": "Lima",
+  "fecha_registro": "2024-02-21",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0052",
+  "nombre": "ELENA VARGAS",
+  "email": "elena.vargas52@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2024-04-05",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0053",
+  "nombre": "María Condori",
+  "email": "maria.condori53@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2025-05-12",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0054",
+  "nombre": "Jorge Mamani",
+  "email": "jorge.mamani54@correo.pe",
+  "ciudad": "AREQUIPA",
+  "fecha_registro": "2024-03-01",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0055",
+  "nombre": "Lucía Paredes",
+  "email": "lucia.paredes55correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2025-02-03",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0056",
+  "nombre": "Pedro Ccori",
+  "email": "pedro.ccori56@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2025-03-09",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0057",
+  "nombre": "Elena Vargas",
+  "email": "elena.vargas57@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2024-06-07",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0058",
+  "nombre": "Rosa Huamán",
+  "email": "rosa.huaman58@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-02-29",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0059",
+  "nombre": "Elena Vargas",
+  "email": "elena.vargas59@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2024-11-17",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0060",
+  "nombre": "Ana Torres",
+  "email": "ana.torres60@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2025-05-29",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0061",
+  "nombre": "María Condori",
+  "email": "maria.condori61@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2025-06-04",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0062",
+  "nombre": "María Condori",
+  "email": "maria.condori62@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2024-03-10",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0063",
+  "nombre": "Jorge Mamani",
+  "email": "jorge.mamani63@correo.pe",
+  "ciudad": "AREQUIPA",
+  "fecha_registro": "2024-05-02",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0064",
+  "nombre": "Jorge Mamani",
+  "email": "jorge.mamani64@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2024-03-24",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0065",
+  "nombre": "MIGUEL APAZA",
+  "email": "miguel.apaza65@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2024-09-24",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0066",
+  "nombre": "Carlos Flores",
+  "email": "carlos.flores66correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-09-28",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0067",
+  "nombre": "María Condori",
+  "email": "maria.condori67@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2025-04-13",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0068",
+  "nombre": "Luis Quispe",
+  "email": null,
+  "ciudad": "Lima",
+  "fecha_registro": "2025-04-14",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0069",
+  "nombre": "Miguel Apaza",
+  "email": "miguel.apaza69@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2024-03-16",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0070",
+  "nombre": "Jorge Mamani",
+  "email": "jorge.mamani70@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2024-05-15",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0071",
+  "nombre": "Luis Quispe",
+  "email": "luis.quispe71@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2025-01-13",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0072",
+  "nombre": "María Condori",
+  "email": "maria.condori72@correo.pe",
+  "ciudad": "AREQUIPA",
+  "fecha_registro": "2025-07-10",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0073",
+  "nombre": "Rosa Huamán",
+  "email": "rosa.huaman73@correo.pe",
+  "ciudad": "Lima",
+  "fecha_registro": "2025-07-21",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0074",
+  "nombre": "Luis Quispe",
+  "email": "luis.quispe74@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-09-27",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0075",
+  "nombre": "Luis Quispe",
+  "email": "luis.quispe75@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-10-05",
+  "segmento": "Premium"
+ },
+ {
+  "id_cliente": "C0076",
+  "nombre": "Miguel Apaza",
+  "email": "miguel.apaza76@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2024-12-17",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0077",
+  "nombre": "Rosa Huamán",
+  "email": "rosa.huaman77correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2024-09-14",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0078",
+  "nombre": "LUIS QUISPE",
+  "email": "luis.quispe78@correo.pe",
+  "ciudad": "Trujillo",
+  "fecha_registro": "2024-10-10",
+  "segmento": "Regular"
+ },
+ {
+  "id_cliente": "C0079",
+  "nombre": "Ana Torres",
+  "email": "ana.torres79@correo.pe",
+  "ciudad": "Cusco",
+  "fecha_registro": "2024-05-13",
+  "segmento": "Nuevo"
+ },
+ {
+  "id_cliente": "C0080",
+  "nombre": "Rosa Huamán",
+  "email": "rosa.huaman80@correo.pe",
+  "ciudad": "Arequipa",
+  "fecha_registro": "2025-03-28",
+  "segmento": "Nuevo"
+ }
+]
