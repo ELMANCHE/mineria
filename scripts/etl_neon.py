@@ -1,6 +1,7 @@
 #etl
 import json
 import os
+import re
 from datetime import date
 from pathlib import Path
 
@@ -12,6 +13,9 @@ from sqlalchemy import create_engine, text
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 SQL_FILE = BASE_DIR / "sql" / "schema.sql"
+INVALID_EMAILS_FILE = BASE_DIR / "reports" / "clientes_email_invalido.csv"
+EMAIL_PATTERN = re.compile(r"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$")
+EMAIL_VALID_THRESHOLD = 95
 
 load_dotenv(BASE_DIR / ".env")
 DATABASE_URL = os.getenv("DATABASE_URL")
@@ -73,9 +77,44 @@ def fix_future_date(d):
     return d
 
 
+def normalize_email(value):
+    email = str(value).strip()
+    if not email:
+        return None
+    domain = "correo.pe"
+    if "@" not in email and email.lower().endswith(domain):
+        local = email[:-len(domain)].strip()
+        if local:
+            email = f"{local}@{domain}"
+    return email
+
+
 def clean_email(series: pd.Series) -> pd.Series:
-    """Email: strip, NaN/'' -> None."""
-    return series.apply(lambda x: str(x).strip() if pd.notna(x) and str(x).strip() else None)
+    """Email: strip, corrige @ faltante antes de correo.pe."""
+    return series.apply(lambda x: normalize_email(x) if pd.notna(x) else None)
+
+
+def is_valid_email(email) -> bool:
+    return isinstance(email, str) and bool(EMAIL_PATTERN.fullmatch(email))
+
+
+def register_invalid_emails(dim_cliente: pd.DataFrame):
+    """Registra emails inválidos para corrección en la fuente."""
+    invalid_mask = ~dim_cliente["email"].map(is_valid_email)
+    invalid = dim_cliente.loc[invalid_mask, ["id_cliente", "nombre", "email"]].copy()
+    invalid["motivo"] = invalid["email"].apply(
+        lambda x: "vacio" if pd.isna(x) else "formato_invalido"
+    )
+
+    INVALID_EMAILS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    invalid.to_csv(INVALID_EMAILS_FILE, index=False)
+
+    total = len(dim_cliente)
+    validos = int((~invalid_mask).sum())
+    porcentaje = validos / total * 100 if total else 0
+    estado = "OK" if porcentaje >= EMAIL_VALID_THRESHOLD else "ALERTA"
+    print(f"  Email válido: {validos}/{total} ({porcentaje:.1f}%) - {estado}")
+    print(f"    Inválidos registrados en {INVALID_EMAILS_FILE.relative_to(BASE_DIR)}")
 
 
 # Extracción
@@ -209,6 +248,7 @@ def transform_dimensiones(df_clientes: pd.DataFrame, df_productos: pd.DataFrame)
     dim_cliente["id_cliente"] = dim_cliente["id_cliente"].astype(str).str.strip()
     dim_cliente["nombre"] = dim_cliente["nombre"].astype(str).str.strip()
     dim_cliente["email"] = clean_email(dim_cliente["email"])
+    register_invalid_emails(dim_cliente)
     dim_cliente["ciudad"] = clean_text(dim_cliente["ciudad"])
     dim_cliente["segmento"] = clean_text(dim_cliente["segmento"])
     dim_cliente["fecha_registro"] = pd.to_datetime(
